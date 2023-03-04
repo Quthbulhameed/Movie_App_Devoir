@@ -1,0 +1,241 @@
+/* App.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .movie-card {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .movie-card-title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  
+  .progressBar {
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    overflow: hidden;
+  }
+  
+  .progressBar__bar {
+    width: 0%;
+    height: 100%;
+    background-color: #3498db;
+    transition: width 0.3s ease;
+  }
+  
+  .movie-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-form__field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .movie-form__label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .movie-form__input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  .category-filter {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-filter__label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* MovieCard Component */
+.movie-card {
+    width: 25%;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .movie-card-header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .movie-card-title {
+    margin: 0;
+  }
+  
+  
+ 
+  
+  
+  
+  .like-button.liked {
+    background-color: #2196f3;
+  }
+  
+  .like-button:hover {
+    background-color: #388e3c;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 5px;
+    transition: width 0.2s ease-in-out;
+  }
+  
+  .progress.disliked {
+    background-color: #f44336;
+  }
+  
+  .movie-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .movie-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .movie-card-title {
+    font-size: 1.5rem;
+  }
+  
+  .delete-button {
+    background-color: #ff4444;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .movie-card-category {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 0.9rem;
+    padding: 3px 7px;
+    margin-right: 5px;
+  }
+  
+  .movie-card-likes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .like-button {
+    background-color: #66bb6a;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .like-button.liked {
+    background-color: #ffbb33;
+  }
+  
+  .likes-count,
+  .dislikes-count,
+  .total-count {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .like-dislike-buttons {
+    margin-top: 10px;
+  }
+  
+  .like,
+  .dislike {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    color: #444;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+  
+  .like:hover,
+  .dislike:hover {
+    background-color: #e0e0e0;
+  }
+  
